@@ -1,0 +1,13 @@
+<?php
+function doStuff($closure){
+    $closure();
+}
+
+$closure = function(){
+    echo "Hello, World!";
+};
+
+doStuff($closure);
+?>
+
+
